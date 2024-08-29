@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<!-- 
+    1. h1-h6 heading <tạo ra tiêu đề tùy kích cỡ lớn nhỏ>
+    2. p paragrah <nội dung của tiêu đề>
+    3. img image <chèn thêm hình ảnh>
+    4. a anchor <Chèn đường link liên kết>
+    5. ul, li  unordered list, list item  <Tạo bảng biểu nhỏ >
+    6. table bảng 
+    7. input <tạo ô checkbox, radio, tạo điều kiện đồng nhất để chọn 1 trong còn lại>
+    8. button <tạo điều kiện muốn check>
+    9. div <khoanh vùng>
+    10. ol, li <thay vì là dấu chấm đầu dòng thì là đánh số từng dòng>
+        dùng <ol type="i" start="4"> thì Danh sách sẽ được đánh số bắt đầu từ iv
+            <ol type="I" start="4"> thì Danh sách sẽ được đánh số bắt đầu từ IV
+            <ol type="A" start="4"> thì Danh sách sẽ được đánh thứ tự từ chữ D
+            <ol type="a" start="4"> thì Danh sách sẽ được đánh thứ tự từ chữ d
+            <ol start="4"> thì Danh sách sẽ được đánh số bắt đầu bằng 4.
+    11. Dùng thẻ Style ngay trong HTML để sử dụng CSS chỉnh sửa : màu, style chữ .....<Sử dụng Internal>
+    12. Có 3 cách sử dụng thuộc tính trong HTLM là Internal, External và Inline
+ -->
+<html>
+
+<head>
+    <title> Khóa Học Lập Trình Web</title>
+    <meta charset="utf-8">
+     <style>
+            h1 
+            {
+                color:crimson;
+                font-size: 20px;
+            }
+            body
+            {
+                background-color:darkseagreen;
+            }
+    </style> 
+    <link rel="stylesheet" href="main.css">
+<body>
+    <div>
+        <p style = "color:Red;text-align:center;font-size: 100px;">Xin chào </p>
+        <img width = "250px" src="https://www.paratime.vn/wp-content/uploads/2019/04/timestudio.vn-headshot-cv.jpg"
+     alt="Ảnh CV chân dung">
+        <h1 title="Đây là tiêu đề">Chào Mừng Các Bạn Đến Với Khóa Học Lập Trình Web</h1>
+        <h2 title="Đây là giới thiệu bản thân">Chào các bạn</h2>
+        <h3 title="Đây cũng như trên">Mình học tại Trường Đại Học Đà Lạt</h3>
+        <p>Đây là logo của trường mình <img
+                src="https://inkythuatso.com/uploads/images/2021/12/logo-dai-hoc-da-lat-inkythuatso-01-20-16-27-00.jpg"
+                alt="Logo Trường Đại Học Đà Lạt"></p>
+        <p style="color: red;font-size: 16px;"> Web còn có tên gọi khác là WWW[1], hoặc World Wide Web. Web là không
+            gian thông tin toàn cầu. Cụ thể hơn, web là một không gian, được tạo ra bởi thông tin và có phạm vi toàn
+            cầu.</p>
+        <p> Năm 1989, Tim Berners-Lee là người phát minh ra web. Một năm sau đó, ông cũng là người đã tạo ra chương
+            trình để đọc thông tin trên web, gọi là trình duyệt web (web browser), hay được gọi tắt là trình duyệt
+            (browser).</p>
+        <h3> Không gian thông tin toàn cầu có một số đặc điểm sau:</h3>
+        <p> Có phạm vi toàn cầu: người dùng ở mọi nơi đều có thể truy cập vào không gian thông tin này. Họ chỉ cần có
+            một trong các thiết bị như máy tính, tivi, điện thoại thông minh (smartphone), máy tính bảng (tablet) hoặc
+            một thiết bị điện tử bất kỳ (gọi chung là máy tính), miễn là có kết nối tới Internet.</p>
+        <br><p> Thông tin trong hệ thống web tồn tại ở nhiều dạng: văn bản (text), hình ảnh, video, âm thanh. Các thông tin
+            này được gọi chung là tài nguyên web. Mỗi tài nguyên web được xác định bằng một địa chỉ cụ thể gọi là URL.
+        </p><hr>
+        <p> Không gian thông tin được tạo ra bởi rất nhiều các liên kết (link) (cũng được gọi là siêu liên kết -
+            hyperlink) giữa các tài nguyên web với nhau. Các liên kết này được các lập trình viên tạo ra trong quá trình
+            làm web, thực chất nó là liên kết tới các URL</p>
+        <p>Hạ tầng của không gian thông tin toàn cầu chính là Internet. Hạ tầng Internet gồm hai loại: hạ tầng cứng và
+            hạ tầng mềm. Trong đó, hạ tầng cứng bao gồm các thiết bị mạng, máy tính, môi trường truyền; và hạ tầng mềm
+            gồm các giao thức và các phần mềm.</p>
+    </DIv>
+    <DIv>
+        <p>Mỗi khi nói đến web, người ta thường nhắc đến các thành phần có liên quan như: máy tính, mạng, Internet, web,
+            trình duyệt, máy tìm kiếm (search engine) hay được gọi là trang tìm kiếm, và nội dung.</p>
+        <img src="https://1.bp.blogspot.com/-Ttx29ftF3HU/YMQr8UFMWiI/AAAAAAAAFXs/9LArZhJgKmoBYxxCToVJAYxPR7ygWafVwCLcBGAsYHQ/s696/Cac%2Bthanh%2Bphan%2Blien%2Bquan%2Bden%2Bweb.jpg"
+            alt=" Hình ảnh các thành phần liền quan đến web">
+        <p></p>
+        <img src="data:image/jpeg;base64,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"
+            alt="ảnh đẹp">
+        <p></p>
+        <a href="https://legiacong.blogspot.com/2021/06/web-1-web-la-gi.html">Đi tới trang này</a>
+        <ul>
+            <li> <a
+                    href="https://www.google.com/search?q=html+vs+css+l%C3%A0+g%C3%AC&oq=html+vs+css+l%C3%A0+g%C3%AC&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQABgKGIAEMgoIAhAAGIAEGKIEMgoIAxAAGIAEGKIEMgoIBBAAGIAEGKIEMgoIBRAAGIAEGKIE0gEINjI1MWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8">htlm,
+                    css là gì?</a> </li>
+            <li> <a href="https://www.youtube.com/watch?v=ZotVkQDC6mU">Cài đặt môi trường </li></a>
+            <li> làm quen với Dev tools</li>
+            <li> Tạo trang html đầu tiên</li>
+        </ul>
+
+        <ol>
+            <li> <a
+                    href="https://www.google.com/search?q=html+vs+css+l%C3%A0+g%C3%AC&oq=html+vs+css+l%C3%A0+g%C3%AC&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQABgKGIAEMgoIAhAAGIAEGKIEMgoIAxAAGIAEGKIEMgoIBBAAGIAEGKIEMgoIBRAAGIAEGKIE0gEINjI1MWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8">htlm,
+                    css là gì?</a> </li>
+            <li> <a href="https://www.youtube.com/watch?v=ZotVkQDC6mU">Cài đặt môi trường </li></a>
+            <li> làm quen với Dev tools</li>
+            <li> Tạo trang html đầu tiên</li>
+        </ol>
+    </DIv> 
+    
+    <!-- Cách 1 để tạo bảng -->
+    <table>
+        <thead>
+            <th>STT</th>
+            <th>Tên</th>
+            <th>Địa Chỉ</th>
+            <th> Số Điện thoại</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Trần Minh Hiếu</td>
+                <td>15 Thông Thiên Học </td>
+                <td> 321343135324</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Trần Minh Hiếu 2</td>
+                <td>15 Thông Thiên Học 2</td>
+                <td> 321343135322</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Trần Minh Hiếu 3</td>
+                <td>15 Thông Thiên Học 3 </td>
+                <td> 321343135323</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Trần Minh Hiếu 4</td>
+                <td>15 Thông Thiên Học 4</td>
+                <td> 321343135324</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Trần Minh Hiếu 5</td>
+                <td>15 Thông Thiên Học 5</td>
+                <td> 321343135326</td>
+            </tr>
+        </tbody>
+    </table>
+
+   <!-- Cách 2 để tạo bảng  -->
+<div> 
+    <table>
+    <tr>
+        <th>STT</th>
+        <th>Tên</th>
+        <th>Địa Chỉ</th>
+        <th> Số Điện thoại</th>
+    </tr>
+        
+        
+    <tr>
+        <td>1</td>
+        <td>Trần Minh Hiếu</td>
+        <td>15 Thông Thiên Học </td>
+        <td> 321343135324</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Trần Minh Hiếu 2</td>
+        <td>15 Thông Thiên Học 2</td>
+        <td> 321343135322</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Trần Minh Hiếu 3</td>
+        <td>15 Thông Thiên Học 3 </td>
+        <td> 321343135323</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Trần Minh Hiếu 4</td>
+        <td>15 Thông Thiên Học 4</td>
+        <td> 321343135324</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Trần Minh Hiếu 5</td>
+        <td>15 Thông Thiên Học 5</td>
+        <td> 321343135326</td>
+     </tr>
+</table>
+
+</div>
+    
+<Div>
+    <p>
+        <input type="text">
+        <input type="text">
+        <input type="text">
+        <input type="text">
+    </p>
+
+    <p>
+        <input name="gender" type="radio">
+        <input name="gender" type="radio">
+        <input name="gender" type="radio">
+    </p>
+
+    <p>
+        <input name="gender" type="checkbox">
+        <input name="gender" type="checkbox">
+        <input name="gender" type="checkbox">
+        <input name="gender" type="checkbox">
+    </p>
+
+    <a
+        href="https://viettel4g5g.com.vn/dang-ky-4g-viettel/?gad_source=1&gclid=EAIaIQobChMIo6LS1rzkhwMVKhF7Bx2Gzh1rEAAYASAAEgJmt_D_BwE"><button>Đăng
+            ký</button></a>
+</div>
+<br>
+<hr>
+<br>
+<hr>
+<br><hr>
+<p>Tác giả: <em>Minh Hiếu</em></p>
+<label> Điền tên bạn vào đây? </label>
+<input type="text" placeholder="Tên mình là ???" >
+<br>
+<label> Hiện tại, Bạn đang học lớp nào ? </label>
+<select >
+    <option> CTK46A </option>
+    <option> CTK46B </option>
+    <option> CTK45 </option>
+    <option> CTK47A </option>
+    <option> CTK47B </option>
+    <option> CTK47C </option>
+</select>
+
+<dl>
+
+    <dt>mục từ 1</dt>
+
+    <dd>định nghĩa cho mục từ 1</dd>
+
+    <dt>mục từ 2</dt>
+
+    <dd>định nghĩa cho mục từ 2</dd>
+
+</dl>
+
+<ol>
+    <li>Mục 1</li>
+    <li>Mục 2
+        <ul>
+            <li>Nội dung 1</li>
+            <li>Nội dung 2</li>
+        </ul>
+    </li>
+    <li>Mục 3</li>
+</ol>
+<p>Đôi khi cũng phải nhìn lại bản thân, phải yêu bản thân mình, phải thương lấy nó, bởi nó là người bạn gần gũi nhất, trung thành nhất, yêu chứ không nuông chiều, như Sophia Loren đã nói:</p>
+<blockquote>
+            <p>Hãy yêu bản thân vô điều kiện, như là bạn yêu những người thân thiết với mình bất chấp khuyết điểm của họ.</p>
+            <p>Love yourself unconditionally, just as you love those closest to you despite their faults.</p>
+</blockquote>
+<pre>
+
+    NGÀY ĐẦU TIÊN ĐI HỌC
+
+   
+
+    Ngày đầu tiên đi học
+
+    Mẹ dắt tay đến trường
+
+    Em vừa đi vừa khóc
+
+    Mẹ dỗ dành bên em
+
+
+
+                Tác giả: Viễn Phương
+
+    </pre>
+
+
+
+    <p>
+
+    NGÀY ĐẦU TIÊN ĐI HỌC
+
+   
+
+    Ngày đầu tiên đi học
+
+    Mẹ dắt tay đến trường
+
+    Em vừa đi vừa khóc
+
+    Mẹ dỗ dành bên em
+
+
+
+                Tác giả: Viễn Phương
+
+    </p>
+    <figure>
+
+        <img src="HTML-structure.png" alt="HTML document structure">
+
+        <figcaption>
+
+                    Cấu trúc một tài liệu HTML
+
+        </figcaption>
+
+</figure>
+<figure>
+    <pre><code>
+                body
+                {
+                    background-color: #000;
+                    color: red;
+                }
+    </code></pre>
+    <figcaption>
+                Cú pháp viết CSS
+    </figcaption>
+</figure>
+<ul>
+    <li><a href="#">Thông Báo</a></li>
+    <li><a href="#">Hỗ Trợ</a></li>
+    <li><a href="#">Tiếng Việt</a></li>
+    <li><a href="#">Đăng Ký</a></li>
+    <li><a href="#">Đăng Nhập</a></li>
+</ul>
+<article>
+    <h1>Tiêu đề của bài viết</h1>
+    <ul>
+        <li>Tên tác giả</li>
+        <li>Thuộc thể loại: Bài viết mới</li>
+    </ul>
+
+    <section>
+        <h2>Mở đầu</h2>
+        <p>Nội dung của phần mở đầu</p>
+    </section>
+
+    <section>
+        <h2>Nội dung 1</h2>
+        <p>Nội dung 1 của bài viết</p>
+    </section>
+
+    <section>
+        <h2>Nội dung 2</h2>
+        <p>Nội dung 2 của bài viết</p>
+    </section>
+
+    <section>
+        <h2>Kết luận</h2>
+        <p>Nội dung của phần kết luận</p>
+    </section>
+</article>
+<h2 id="start-h">H</h2>
+
+    <dl>
+        <dt>Harddisk</dt>
+        <dd>Đĩa cứng</dd>
+        <dt>Hardware</dt>
+        <dd>Phần cứng</dd>
+    </dl>
+<p>... G | <a href="#start-h">H</a> | I | K | L | M | L | ...</p>
+</body>
+</html>
